@@ -50,7 +50,7 @@ if(!isset($admin_id)){
                };
             };
          ?>
-         <h3><?php echo $total_pendings; ?>&nbsp;FCFA</h3>
+         <h3><?php echo $total_pendings; ?>&nbsp;F</h3>
          <p>total pendings</p>
       </div>
 
@@ -65,7 +65,7 @@ if(!isset($admin_id)){
                };
             };
          ?>
-         <h3><?php echo $total_completed; ?>&nbsp;FCFA</h3>
+         <h3><?php echo $total_completed; ?>F</h3>
          <p>completed payments</p>
       </div>
 

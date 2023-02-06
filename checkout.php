@@ -147,12 +147,9 @@ if(isset($_POST['order_btn'])){
             <input type="number" min="0" name="pin_code" required placeholder="e.g 0000">
          </div>
       </div>
-        
-      <!-- <input type="submit" value="order now" class="btn" name="order_btn"> -->
-        <input type="button" value="checkout" class="btn" name="order_btn">
 
 
-   <iframe class="paypal">
+   <embed class="paypal">
       <!DOCTYPE html>
       <html lang="en">
       <head>
@@ -182,7 +179,7 @@ if(isset($_POST['order_btn'])){
          
                <div class="radio-input">
                   <input id="card" type="radio" name="payment">
-                  Pay AU$20.99 with credit card
+                  Pay  with credit card
                </div>
             </label>
          
@@ -190,7 +187,7 @@ if(isset($_POST['order_btn'])){
                <img src="https://designmodo.com/demo/checkout-panel/img/paypal_logo.png"/>
                <div class="radio-input">
                   <input id="paypal" type="radio" name="payment">
-                  Pay AU$20.99 with PayPal
+                  Pay with PayPal
                </div>
             </label>
             </div>
@@ -217,21 +214,21 @@ if(isset($_POST['order_btn'])){
                <label for="cardnumber">Card Number</label>
                <input type="password" id="cardnumber"/>
          
-               <span class="info">* CVV or CVC is the card security code, unique three digits number on the back of your card separate from its number.</span>
+               <span class="info">CVV or CVC is the card security code, unique three digits number on the back of your card separate from its number.</span>
             </div>
             </div>
          </div>
          
          <div class="panel-footer">
-         
-            <button class="btn next-btn">Next Step</button>
          </div>
       </div>
 
       <script src="js/main.js"></script>
       </body>
       </html>
-</iframe>
+</embed>
+<input type="submit" value="order now" class="btn" name="order_btn">
+        <!-- <input type="button" value="checkout" class="btn" name="order_btn"> -->
    </form>
 
 </section>
