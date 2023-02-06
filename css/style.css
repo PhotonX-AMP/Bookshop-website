@@ -918,7 +918,10 @@ section {
 .footer .credit span {
     color: var(--purple);
 }
-
+/* iframe[class='paypal']{
+    display:none;
+    visibility: hidden;
+} */
 
 /* media queries  */
 

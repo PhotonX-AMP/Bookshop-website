@@ -49,7 +49,7 @@ if(isset($_POST['add_to_cart'])){
         <div class="step"></div>
         <div class="step"></div>
       </div>
-      
+
       <div class="payment-method">
         <label for="card" class="method card">
           <div class="card-logos">
